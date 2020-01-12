@@ -1,0 +1,36 @@
+public class Agent {
+	String aName, agentID, email;
+
+	public Agent(String name, String agentID, String email) {
+		super();
+		this.aName = name;
+		this.agentID = agentID;
+		this.email = email;
+	}
+
+	public String getName() {
+		return aName;
+	}
+
+	public void setName(String name) {
+		this.aName = name;
+	}
+
+	public String getAgentID() {
+		return agentID;
+	}
+
+	public void setAgentID(String agentID) {
+		this.agentID = agentID;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	
+}
